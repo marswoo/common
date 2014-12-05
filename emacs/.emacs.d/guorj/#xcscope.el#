@@ -1,0 +1,127 @@
+Welcome to the Emacs shell
+
+~ $ ls -l
+total 1386180
+-rw-r--r--   1 raoxing        raoxing       10779 Sep  3 20:42 #.emacs#
+-rw-rw-r--   1 raoxing        raoxing     1071168 Sep 18 15:51 2012091812.rar
+drwxrwxr-x  42 raoxing        raoxing        4096 Sep  6 10:28 Apsara_common
+drwxrwxr-x   3 raoxing        raoxing        4096 Aug  6 14:42 Mail
+drwxrwxr-x   9 raoxing        raoxing        4096 Nov  1 14:18 agg
+-rw-r--r--   1 raoxing        raoxing       27795 Aug 20 15:09 agg_config.xml
+-rw-r--r--   1 raoxing        raoxing       25904 Sep 28 10:49 agg_config.xml.tpl
+drwxr-xr-x  23 raoxing        root           4096 Aug 24 14:11 agg_install
+drwxrwxr-x   3 raoxing        raoxing        4096 Nov  1 14:18 agg_install_tmp_dir_12345
+-rw-r--r--   1 raoxing        raoxing        6580 Aug 20 15:13 agg_logger.conf
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 31 19:13 agg_old
+drwxrwxr-x   3 raoxing        raoxing        4096 Oct 30 11:53 agg_pattern
+drwxr-xr-x   7 raoxing        raoxing        4096 Sep 17 13:54 agg_press_client
+-rw-rw-r--   1 raoxing        raoxing   255170560 Aug 20 15:19 agg_recommend_processor_release64-0.2.4.0.tar
+drwxrwxr-x  11 raoxing        raoxing        4096 Oct 17 15:38 agg_test
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 17 15:28 agg_test_old
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 29 15:47 aggregator
+-rw-rw-r--   1 raoxing        raoxing  1073742349 Sep 18 12:05 aggregator.20120918_11.log
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 24 13:52 aggregator_old
+-rwxr-xr-x   1 raoxing        raoxing         590 Sep  6 14:52 alarm.sh
+drwxrwxr-x   5 raoxing        raoxing        4096 Sep 28 16:24 atest_home
+drwxrwxr-x   6 raoxing        raoxing        4096 Aug 20 15:18 bin
+-rw-r--r--   1 raoxing        raoxing          19 Aug  7 16:36 core_pattern
+drwxrwxr-x   2 raoxing        raoxing        4096 Aug 10 13:45 corefile
+drwxrwxr-x   3 raoxing        raoxing        4096 Aug 30 19:01 demo_en_backup
+drwxrwxr-x   4 raoxing        raoxing        4096 Oct 31 19:12 deploy
+drwxrwxr-x   3 raoxing        raoxing        4096 Sep  5 15:49 for_wudi
+-rw-r--r--   1 raoxing        raoxing         664 Aug 16 14:39 get_recsys_logs.sh
+-rw-rw-r--   1 raoxing        raoxing    69802786 Sep 11 16:39 hot_word_result.dat
+drwxrwxr-x   4 raoxing        raoxing        4096 Sep 17 19:30 mongodb
+drwxrwxr-x   9 raoxing        raoxing        4096 Sep 13 15:28 online_agg.9.13
+drwxrwxr-x   2 raoxing        raoxing        4096 Sep 18 19:29 online_error_log
+-rw-rw-r--   1 raoxing        raoxing    19471290 Sep 12 17:22 prefix_suffix.pat.ultimate.add21sites.dict
+drwxrwxr-x   2 raoxing        raoxing        4096 Oct 31 16:30 screen
+-rw-rw-r--   1 raoxing        raoxing        6944 Sep  5 16:13 serialize.h
+drwxrwxr-x   9 raoxing        raoxing        4096 Jul 23 14:30 software
+-rw-rw-r--   1 raoxing        raoxing         166 Aug 11 18:51 soufun.com.pattern
+drwxrwxr-x   7 raoxing        raoxing        4096 Sep  3 15:22 test
+drwxrwxr-x   2 raoxing        raoxing        4096 Aug  7 13:50 tools_script
+drwxr-xr-x   3 root           root           4096 Jun  6 15:08 usr
+drwxrwxr-x  15 raoxing        raoxing        4096 Oct 24 22:56 workspace
+~ $ cd .emacs.d/
+~/.emacs.d $ ls
+auto-save-list  guorj  semantic.cache  tramp
+~/.emacs.d $ cd guorj/
+~/.emacs.d/guorj $ ls
+docbook-xml-mode.el  sourcepair.el  vespa-style.el  xcscope.el
+~/.emacs.d/guorj $ ls
+docbook-xml-mode.el  sourcepair.el  vespa-style.el  xcscope.el
+~/.emacs.d/guorj $ cd ..
+~/.emacs.d $ ls
+auto-save-list  guorj  semantic.cache  tramp
+~/.emacs.d $ find . -name cedet
+~/.emacs.d $ cd guorj/
+~/.emacs.d/guorj $ ls
+docbook-xml-mode.el  sourcepair.el  vespa-style.el  xcscope.el
+~/.emacs.d/guorj $ cat xcscope.el 
+Welcome to the Emacs shell
+
+~ $ ls -l
+total 1386180
+-rw-r--r--   1 raoxing        raoxing       10779 Sep  3 20:42 #.emacs#
+-rw-rw-r--   1 raoxing        raoxing     1071168 Sep 18 15:51 2012091812.rar
+drwxrwxr-x  42 raoxing        raoxing        4096 Sep  6 10:28 Apsara_common
+drwxrwxr-x   3 raoxing        raoxing        4096 Aug  6 14:42 Mail
+drwxrwxr-x   9 raoxing        raoxing        4096 Nov  1 14:18 agg
+-rw-r--r--   1 raoxing        raoxing       27795 Aug 20 15:09 agg_config.xml
+-rw-r--r--   1 raoxing        raoxing       25904 Sep 28 10:49 agg_config.xml.tpl
+drwxr-xr-x  23 raoxing        root           4096 Aug 24 14:11 agg_install
+drwxrwxr-x   3 raoxing        raoxing        4096 Nov  1 14:18 agg_install_tmp_dir_12345
+-rw-r--r--   1 raoxing        raoxing        6580 Aug 20 15:13 agg_logger.conf
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 31 19:13 agg_old
+drwxrwxr-x   3 raoxing        raoxing        4096 Oct 30 11:53 agg_pattern
+drwxr-xr-x   7 raoxing        raoxing        4096 Sep 17 13:54 agg_press_client
+-rw-rw-r--   1 raoxing        raoxing   255170560 Aug 20 15:19 agg_recommend_processor_release64-0.2.4.0.tar
+drwxrwxr-x  11 raoxing        raoxing        4096 Oct 17 15:38 agg_test
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 17 15:28 agg_test_old
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 29 15:47 aggregator
+-rw-rw-r--   1 raoxing        raoxing  1073742349 Sep 18 12:05 aggregator.20120918_11.log
+drwxrwxr-x  10 raoxing        raoxing        4096 Oct 24 13:52 aggregator_old
+-rwxr-xr-x   1 raoxing        raoxing         590 Sep  6 14:52 alarm.sh
+drwxrwxr-x   5 raoxing        raoxing        4096 Sep 28 16:24 atest_home
+drwxrwxr-x   6 raoxing        raoxing        4096 Aug 20 15:18 bin
+-rw-r--r--   1 raoxing        raoxing          19 Aug  7 16:36 core_pattern
+drwxrwxr-x   2 raoxing        raoxing        4096 Aug 10 13:45 corefile
+drwxrwxr-x   3 raoxing        raoxing        4096 Aug 30 19:01 demo_en_backup
+drwxrwxr-x   4 raoxing        raoxing        4096 Oct 31 19:12 deploy
+drwxrwxr-x   3 raoxing        raoxing        4096 Sep  5 15:49 for_wudi
+-rw-r--r--   1 raoxing        raoxing         664 Aug 16 14:39 get_recsys_logs.sh
+-rw-rw-r--   1 raoxing        raoxing    69802786 Sep 11 16:39 hot_word_result.dat
+drwxrwxr-x   4 raoxing        raoxing        4096 Sep 17 19:30 mongodb
+drwxrwxr-x   9 raoxing        raoxing        4096 Sep 13 15:28 online_agg.9.13
+drwxrwxr-x   2 raoxing        raoxing        4096 Sep 18 19:29 online_error_log
+-rw-rw-r--   1 raoxing        raoxing    19471290 Sep 12 17:22 prefix_suffix.pat.ultimate.add21sites.dict
+drwxrwxr-x   2 raoxing        raoxing        4096 Oct 31 16:30 screen
+-rw-rw-r--   1 raoxing        raoxing        6944 Sep  5 16:13 serialize.h
+drwxrwxr-x   9 raoxing        raoxing        4096 Jul 23 14:30 software
+-rw-rw-r--   1 raoxing        raoxing         166 Aug 11 18:51 soufun.com.pattern
+drwxrwxr-x   7 raoxing        raoxing        4096 Sep  3 15:22 test
+drwxrwxr-x   2 raoxing        raoxing        4096 Aug  7 13:50 tools_script
+drwxr-xr-x   3 root           root           4096 Jun  6 15:08 usr
+drwxrwxr-x  15 raoxing        raoxing        4096 Oct 24 22:56 workspace
+~ $ cd .emacs.d/
+~/.emacs.d $ ls
+auto-save-list  guorj  semantic.cache  tramp
+~/.emacs.d $ cd guorj/
+~/.emacs.d/guorj $ ls
+docbook-xml-mode.el  sourcepair.el  vespa-style.el  xcscope.el
+~/.emacs.d/guorj $ ls
+docbook-xml-mode.el  sourcepair.el  vespa-style.el  xcscope.el
+~/.emacs.d/guorj $ cd ..
+~/.emacs.d $ ls
+auto-save-list  guorj  semantic.cache  tramp
+~/.emacs.d $ find . -name cedet
+~/.emacs.d $ cd guorj/
+~/.emacs.d/guorj $ ls
+docbook-xml-mode.el  sourcepair.el  vespa-style.el  xcscope.el
+~/.emacs.d/guorj $ ~/.emacs.d/guorj $ 
+~/.emacs.d/guorj $ 
+~/.emacs.d/guorj $ ls
+docbook-xml-mode.el  sourcepair.el  vespa-style.el  xcscope.el  xcscope.el~
+~/.emacs.d/guorj $ mv xcscope.el~ xcscope.el
+~/.emacs.d/guorj $ 

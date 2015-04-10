@@ -1,0 +1,128 @@
+sh build.sh 
+ll
+cd conf/
+ll
+svn mv get_user_info.xml run_job.xml
+ll
+ll
+ll
+cd conf/
+ll
+ll
+cd ~/workspace/work/generaldsp_pv_uv_prediction
+sh build.sh 
+ll
+svn st
+svn del scripts/mock_data.py --force
+svn st
+svn ci -m "update"
+ll
+svn up
+sh build.sh 
+ll
+cd ..
+ll
+cd ..
+ll
+ll scripts/
+cp ../my_odps_jobs/scripts/common_run.sh .
+ll
+mv common_run.sh scripts/
+ll
+cd scripts/
+ll
+ll
+cd ..
+ll
+sh scripts/common_run.sh run 20150119
+ll
+ll
+ls -lrt
+cd rpm/
+ll
+cd noarch/
+ll
+ll -l
+cd ..
+ll
+ll
+t-abs *.spec
+ll+ cp /home/di.wudi/workspace/work/audience_prediction_offline/rpm/../conf/setup/create_table.xml ./home/a/husky/apps/ecpm_algo_n_user_info/conf/setup
+ll
+jll
+cd .dep_create/
+ll
+cd home/a/husky/apps/ecpm_algo_n_user_info/
+ll
+ll
+ll
+ll
+find -name *.conf
+vim .confccccat 
+ll
+cd wo
+ll
+cd rpm/
+ll
+cd home/
+ll
+cd a/husky/apps/ecpm_algo_n_user_info/
+ll
+find -name *.conf
+ll
+t-abs *.spec
+ll
+ll noarch/
+ll noarch/ -h
+ll -h noarch/
+cd noarch/
+ll
+ll 
+ll -h
+ll -l
+ll
+cd ..
+ll
+ll
+t-abs *.spec
+ll
+ll noarch/
+ll noarch/-l
+ll noarch/ -l
+t-abs *.spec
+t-abs *.spec
+ll
+cd task/
+ll
+cp setup.xml get_user_info_s2.xml
+cp setup.xml get_user_info_s1.xml
+mv get_user_info.xml get_user_info_s3.xml
+ll
+svn st
+svn del get_user_info.xml --force
+svn st
+ll
+cat get_user_info_s1.xml
+ll
+ll
+mv get_user_info_s3.xml get_user_info.xml
+ll
+4m get_user_info_s1.xmlrrrrm 
+rm get_user_info_s*
+ll
+ll
+ll
+cd ..
+ll
+cd sql/
+ll
+ll
+cp get_pv_info_s2.dml get_pv_info_s3.dml
+ll
+ll
+cd ..
+ll
+cd -
+ll
+ll
+ll

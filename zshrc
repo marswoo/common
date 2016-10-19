@@ -3,13 +3,7 @@
 #PROMPT='%{[36m%}%n%{[35m%}@%{[34m%}%M %{[33m%}%D %T  %{[32m%}%/ 
 #%{[31m%}>>%{[m%}'
 
-alias odps="$HOME/odps_clt/bin/odpscmd"
-
-#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jiqing.liu/sources/machine_learning/shravanmn-Yahoo_LDA-28011b8/lib/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/:/usr/lib64/:/usr/local/lib/:/usr/local/lib64/:/usr/ali/java/jre/lib/amd64/server/
-export PATH=$PATH:/usr/bin/:/usr/local/bin:/home/jiqing.liu/bitbucket/tools
-
-JAVA_HOME=/usr/java/jdk1.6.0_24/
 
 #关于历史纪录的配置
 # number of lines kept in history
@@ -92,7 +86,8 @@ alias ls='ls -F --color=auto'
 alias ll='ls -l'
 alias grep='grep --color=auto'
 alias ee='emacsclient -t'
-alias tmux='/home/tops/bin/tmux'
+alias tmux='/usr/local/bin/tmux'
+alias odps='/usr/bin/odpscmd'
 
 #路径别名 进入相应的路径时只要 cd ~xxx
 hash -d WWW="/home/lighttpd/html"

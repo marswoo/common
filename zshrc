@@ -22,6 +22,8 @@ limit coredumpsize 0
 bindkey -e
 #设置DEL键为向后删除
 bindkey "\e[3~" delete-char
+#设置bash中的control U功能
+bindkey \^U backward-kill-line
 
 #以下字符视为单词的一部分
 WORDCHARS='*?_-[]~=&;!#$%^(){}<>'
@@ -57,7 +59,6 @@ zstyle ':completion:*:*:default' force-list always
 # GNU Colors 需要/etc/DIR_COLORS文件 否则自动补全时候选菜单中的选项不能彩色显示
 [ -f /etc/DIR_COLORS ] && eval $(dircolors -b /etc/DIR_COLORS)
 export ZLSCOLORS="${LS_COLORS}"
-zmodload zsh/complist
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 
@@ -83,7 +84,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 alias ls='ls -F --color=auto'
-alias ll='ls -l'
+alias ll='ls -lrt'
 alias grep='grep --color=auto'
 alias ee='emacsclient -t'
 alias tmux='/usr/local/bin/tmux'

@@ -89,7 +89,6 @@ alias ls='ls -F --color=auto'
 alias ll='ls -lrt'
 alias grep='grep --color=auto'
 alias ee='emacsclient -t'
-alias tmux='/usr/local/bin/tmux'
 alias odps='/usr/bin/odpscmd'
 
 #路径别名 进入相应的路径时只要 cd ~xxx

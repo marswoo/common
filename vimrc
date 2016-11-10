@@ -36,5 +36,5 @@ set foldlevelstart=99
 " Indent Python in the Google way.
 
 setlocal indentexpr=GetGooglePythonIndent(v:lnum)
-set mouse=a
+set mouse=
 

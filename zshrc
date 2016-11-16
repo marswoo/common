@@ -86,11 +86,10 @@ zstyle ':completion:*:warnings' format $'\e[01;31m -- No Matches Found --\e[0m'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
-alias ls='ls -F --color=auto'
-alias ll='ls -lrt'
+alias ll='ls -FGlrt'
 alias grep='grep --color=auto'
 alias ee='emacsclient -t'
-alias odps='/usr/bin/odpscmd'
+alias odps='~/work/odps/bin/odpscmd'
 
 #路径别名 进入相应的路径时只要 cd ~xxx
 hash -d WWW="/home/lighttpd/html"

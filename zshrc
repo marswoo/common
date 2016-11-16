@@ -4,8 +4,9 @@
 #%{[31m%}>>%{[m%}'
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/:/usr/lib64/:/usr/local/lib/:/usr/local/lib64/:/usr/ali/java/jre/lib/amd64/server/
-export LC_ALL=en_US.UTF-8
-export LANG=en_US.UTF-8
+export PATH=~/work/usr/bin:$PATH
+export LANG="zh_CN.UTF-8"
+export LC_ALL="zh_CN.UTF-8"
 
 #关于历史纪录的配置
 # number of lines kept in history

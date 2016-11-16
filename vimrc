@@ -3,6 +3,8 @@ set encoding=utf-8
 let &termencoding=&encoding
 set fileencodings=utf-8,gb18030,gbk,gb2312
 set ignorecase smartcase
+set enc=utf8
+set fencs=utf8,gbk,gb2312,gb18030,cp936
 
 "不显示行号
 set nonu
@@ -33,8 +35,11 @@ set expandtab
 set foldmethod=syntax
 set foldlevelstart=99
 
+"设置高亮查找
+set hlsearch
+
 " Indent Python in the Google way.
 
 setlocal indentexpr=GetGooglePythonIndent(v:lnum)
-set mouse=a
+set mouse=
 
